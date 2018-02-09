@@ -1,0 +1,59 @@
+$backColor: #6D5E7D;
+$textColor: #554468;
+
+.human-sizes {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  justify-content: center;
+  //background-color: $backColor;
+  flex-direction: column;
+  .content-wrapper {
+    display: flex;
+    margin: auto;
+  }
+  h1 {
+    padding-top: .5em;
+    margin: auto;
+    width: fit-content;
+  }
+
+  input[type="number"] {
+    font-size: 22px;
+    text-align: center;
+    width: 65px;
+    height: 30px;
+  }
+  table {
+    font-size: 20px;
+  }
+
+  td {
+    &:first-child {
+      padding-right: 1em;
+    }
+  }
+
+  svg {
+    width: 200px;
+    height: 600px;
+  }
+
+  .left-group {
+    margin-right: 10em;
+    display: flex;
+    align-items: center;
+  }
+
+  .param-group {
+    display: flex;
+    justify-content: space-around;
+    .param-wrapper {
+      display: flex;
+      span {
+        padding-left: 5px;
+        color: $textColor;
+      }
+    }
+  }
+}
